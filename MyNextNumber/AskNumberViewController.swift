@@ -13,12 +13,17 @@ import UIKit
 class AskNumberViewController: UIViewController, MyLabelDelegate {
     
     @IBOutlet weak var numberEntryField: UITextField!
+    @IBOutlet weak var labelAnswer: MyClassHandlingDelegate!
     var myNumber : String?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         numberEntryField.becomeFirstResponder()
+        labelAnswer.delegate = self
+        labelAnswer.hidden = true
         
     }
     
@@ -29,10 +34,8 @@ class AskNumberViewController: UIViewController, MyLabelDelegate {
     
     @IBAction func nextBtnPushed(sender: AnyObject) {
         myNumber = numberEntryField.text
-        var myLabel = MyClassHandlingDelegate()
-        myLabel.delegate = self
-        myLabel.text = myLabel.myName()
-        self.view.addSubview(myLabel)
+        labelAnswer.updateMyText()
+        labelAnswer.hidden = false
         
     }
 }
