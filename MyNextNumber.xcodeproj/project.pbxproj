@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A4B648D1B4B1C0500FA051A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4B648C1B4B1C0500FA051A /* Main.storyboard */; };
+		7A4B648F1B4B2B7600FA051A /* DelegateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B648E1B4B2B7600FA051A /* DelegateExample.swift */; };
+		7A4B64911B4B316200FA051A /* DelegateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B64901B4B316200FA051A /* DelegateExampleView.swift */; };
 		7ABDFEEC1B3311C0005B3599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDFEEB1B3311C0005B3599 /* AppDelegate.swift */; };
 		7ABDFEEF1B3311C0005B3599 /* MyNextNumber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDFEED1B3311C0005B3599 /* MyNextNumber.xcdatamodeld */; };
 		7ABDFEF11B3311C0005B3599 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDFEF01B3311C0005B3599 /* ViewController.swift */; };
-		7ABDFEF41B3311C0005B3599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDFEF21B3311C0005B3599 /* Main.storyboard */; };
 		7ABDFEF61B3311C0005B3599 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDFEF51B3311C0005B3599 /* Images.xcassets */; };
-		7ABDFEF91B3311C0005B3599 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDFEF71B3311C0005B3599 /* LaunchScreen.xib */; };
 		7ABDFF051B3311C0005B3599 /* MyNextNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDFF041B3311C0005B3599 /* MyNextNumberTests.swift */; };
+		7ABDFF0F1B3A10F0005B3599 /* AskNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDFF0E1B3A10F0005B3599 /* AskNumberViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A4B648C1B4B1C0500FA051A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		7A4B648E1B4B2B7600FA051A /* DelegateExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateExample.swift; sourceTree = "<group>"; };
+		7A4B64901B4B316200FA051A /* DelegateExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateExampleView.swift; sourceTree = "<group>"; };
 		7ABDFEE61B3311C0005B3599 /* MyNextNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNextNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABDFEEA1B3311C0005B3599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ABDFEEB1B3311C0005B3599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ABDFEEE1B3311C0005B3599 /* MyNextNumber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyNextNumber.xcdatamodel; sourceTree = "<group>"; };
 		7ABDFEF01B3311C0005B3599 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7ABDFEF31B3311C0005B3599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ABDFEF51B3311C0005B3599 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7ABDFEF81B3311C0005B3599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7ABDFEFE1B3311C0005B3599 /* MyNextNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNextNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABDFF031B3311C0005B3599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ABDFF041B3311C0005B3599 /* MyNextNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNextNumberTests.swift; sourceTree = "<group>"; };
+		7ABDFF0E1B3A10F0005B3599 /* AskNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskNumberViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +85,11 @@
 			children = (
 				7ABDFEEB1B3311C0005B3599 /* AppDelegate.swift */,
 				7ABDFEF01B3311C0005B3599 /* ViewController.swift */,
-				7ABDFEF21B3311C0005B3599 /* Main.storyboard */,
+				7ABDFF0E1B3A10F0005B3599 /* AskNumberViewController.swift */,
+				7A4B64901B4B316200FA051A /* DelegateExampleView.swift */,
+				7A4B648E1B4B2B7600FA051A /* DelegateExample.swift */,
+				7A4B648C1B4B1C0500FA051A /* Main.storyboard */,
 				7ABDFEF51B3311C0005B3599 /* Images.xcassets */,
-				7ABDFEF71B3311C0005B3599 /* LaunchScreen.xib */,
 				7ABDFEED1B3311C0005B3599 /* MyNextNumber.xcdatamodeld */,
 				7ABDFEE91B3311C0005B3599 /* Supporting Files */,
 			);
@@ -195,9 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ABDFEF41B3311C0005B3599 /* Main.storyboard in Resources */,
-				7ABDFEF91B3311C0005B3599 /* LaunchScreen.xib in Resources */,
 				7ABDFEF61B3311C0005B3599 /* Images.xcassets in Resources */,
+				7A4B648D1B4B1C0500FA051A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4B64911B4B316200FA051A /* DelegateExampleView.swift in Sources */,
+				7ABDFF0F1B3A10F0005B3599 /* AskNumberViewController.swift in Sources */,
+				7A4B648F1B4B2B7600FA051A /* DelegateExample.swift in Sources */,
 				7ABDFEF11B3311C0005B3599 /* ViewController.swift in Sources */,
 				7ABDFEEC1B3311C0005B3599 /* AppDelegate.swift in Sources */,
 				7ABDFEEF1B3311C0005B3599 /* MyNextNumber.xcdatamodeld in Sources */,
@@ -238,25 +246,6 @@
 			targetProxy = 7ABDFEFF1B3311C0005B3599 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7ABDFEF21B3311C0005B3599 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7ABDFEF31B3311C0005B3599 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7ABDFEF71B3311C0005B3599 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7ABDFEF81B3311C0005B3599 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7ABDFF061B3311C0005B3599 /* Debug */ = {
@@ -347,6 +336,7 @@
 				INFOPLIST_FILE = MyNextNumber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -357,6 +347,7 @@
 				INFOPLIST_FILE = MyNextNumber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -413,6 +404,7 @@
 				7ABDFF0A1B3311C0005B3599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ABDFF0B1B3311C0005B3599 /* Build configuration list for PBXNativeTarget "MyNextNumberTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +413,7 @@
 				7ABDFF0D1B3311C0005B3599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
