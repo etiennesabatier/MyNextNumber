@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7A4B648D1B4B1C0500FA051A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4B648C1B4B1C0500FA051A /* Main.storyboard */; };
-		7A4B64911B4B316200FA051A /* DelegateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B64901B4B316200FA051A /* DelegateExampleView.swift */; };
+		7A4B64911B4B316200FA051A /* NextNumberAnswerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B64901B4B316200FA051A /* NextNumberAnswerLabel.swift */; };
 		7A4B64931B4C133B00FA051A /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B64921B4C133B00FA051A /* APIController.swift */; };
+		7ABDDF941B5959F8008294B6 /* ListAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDDF931B5959F8008294B6 /* ListAllViewController.swift */; };
 		7ABDFEEC1B3311C0005B3599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDFEEB1B3311C0005B3599 /* AppDelegate.swift */; };
 		7ABDFEEF1B3311C0005B3599 /* MyNextNumber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDFEED1B3311C0005B3599 /* MyNextNumber.xcdatamodeld */; };
 		7ABDFEF11B3311C0005B3599 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDFEF01B3311C0005B3599 /* ViewController.swift */; };
@@ -29,9 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A4B648C1B4B1C0500FA051A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
-		7A4B64901B4B316200FA051A /* DelegateExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateExampleView.swift; sourceTree = "<group>"; };
+		7A4B648C1B4B1C0500FA051A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A4B64901B4B316200FA051A /* NextNumberAnswerLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextNumberAnswerLabel.swift; sourceTree = "<group>"; };
 		7A4B64921B4C133B00FA051A /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		7ABDDF931B5959F8008294B6 /* ListAllViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAllViewController.swift; sourceTree = "<group>"; };
 		7ABDFEE61B3311C0005B3599 /* MyNextNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNextNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABDFEEA1B3311C0005B3599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ABDFEEB1B3311C0005B3599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +89,8 @@
 				7ABDFEF01B3311C0005B3599 /* ViewController.swift */,
 				7A4B64921B4C133B00FA051A /* APIController.swift */,
 				7ABDFF0E1B3A10F0005B3599 /* AskNumberViewController.swift */,
-				7A4B64901B4B316200FA051A /* DelegateExampleView.swift */,
+				7ABDDF931B5959F8008294B6 /* ListAllViewController.swift */,
+				7A4B64901B4B316200FA051A /* NextNumberAnswerLabel.swift */,
 				7A4B648C1B4B1C0500FA051A /* Main.storyboard */,
 				7ABDFEF51B3311C0005B3599 /* Images.xcassets */,
 				7ABDFEED1B3311C0005B3599 /* MyNextNumber.xcdatamodeld */,
@@ -220,12 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A4B64911B4B316200FA051A /* DelegateExampleView.swift in Sources */,
+				7A4B64911B4B316200FA051A /* NextNumberAnswerLabel.swift in Sources */,
 				7ABDFF0F1B3A10F0005B3599 /* AskNumberViewController.swift in Sources */,
 				7A4B64931B4C133B00FA051A /* APIController.swift in Sources */,
 				7ABDFEF11B3311C0005B3599 /* ViewController.swift in Sources */,
 				7ABDFEEC1B3311C0005B3599 /* AppDelegate.swift in Sources */,
 				7ABDFEEF1B3311C0005B3599 /* MyNextNumber.xcdatamodeld in Sources */,
+				7ABDDF941B5959F8008294B6 /* ListAllViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

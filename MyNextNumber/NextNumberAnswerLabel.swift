@@ -9,14 +9,14 @@
 import Foundation
 import UIKit
 
-class MyClassHandlingDelegate : UILabel {
+class NextNumberAnswerLabel : UILabel {
     
     var delegate : MyLabelDelegate?
     
     //Use of delegation :
     func updateMyText() {
-        
-        self.text = "Bonjour numéro \(self.delegate!.myNumber!)"
+        var nextNumber = self.delegate!.myNumber!
+        self.text = "Your next number is \(nextNumber)"
     }
     
 }
